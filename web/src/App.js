@@ -18,17 +18,20 @@ class Header extends React.Component {
   render() {
       return (
         <div className="HEADER"> 
-          <ul>
-              <li>Social Media</li>
-              <ul>
-                  <li><a href="https://twitter.com/vilarjimenez">Twitter</a></li>
-                  <li><a href="https://github.com/vilarj">Github</a></li>
-                  <li><a href="https://linkedin.com/in/vilarjimenez">Linkedin</a></li>
-                  <li><a href="https://www.youtube.com/channel/UCUU4YkLRdT-xnuybPSMJLpQ">YouTube</a></li>
-              </ul>
-              <li><a href="">Contact me </a></li>
-              <li><a href="">About me</a></li>
-          </ul>
+        <h1>About Me</h1>
+        <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+
+        <h1>Professional Life</h1>
+        <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+
+        <h1>Most Recent Project</h1>
+        <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
         </div>
       )
   }
@@ -48,6 +51,7 @@ class Footer extends React.Component {
   render () {
     return (
       <div className="FOOTER">
+        <h3 className="social-media"> Social Media </h3>
         <ul>
           <a><SocialIcon url="https://twitter.com/vilarjimenez"/></a>
           <a><SocialIcon url="https://github.com/vilarj"/></a>
