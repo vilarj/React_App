@@ -18,12 +18,13 @@ class Header extends React.Component {
           <ul>
               <li>Social Media</li>
               <ul>
-                  <li><a href="">Twitter</a></li>
-                  <li><a href="">Github</a></li>
-                  <li><a href="">Linkedin</a></li>
-                  <li><a href="">YouTube</a></li>
+                  <li><a href="https://twitter.com/vilarjimenez">Twitter</a></li>
+                  <li><a href="https://github.com/vilarj">Github</a></li>
+                  <li><a href="https://linkedin.com/in/vilarjimenez">Linkedin</a></li>
+                  <li><a href="https://www.youtube.com/channel/UCUU4YkLRdT-xnuybPSMJLpQ">YouTube</a></li>
               </ul>
               <li><a href="">Contact me </a></li>
+              <li><a href="">About me</a></li>
           </ul>
         </div>
       )
