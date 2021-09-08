@@ -1,0 +1,13 @@
+* {
+  list-style: none;
+  font-family: 'Crimson Text', serif;
+}
+
+.FOOTER {
+  background-color: #3a445f;
+  font-style: oblique;
+  font-weight: bold;
+  padding: 0.5%;
+  text-align: center;
+}
+
