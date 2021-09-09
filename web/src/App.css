@@ -12,9 +12,22 @@ h1 {
   color: white,
 }
 
+.HEADER {
+  background-color: #4b597e;
+  padding: 1%;
+  color: white;
+}
+
 .FOOTER {
   background-color: #3a445f;
   padding: 0.5%;
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 15%;
 }
 
+a {
+  padding: 0.2%;
+}
