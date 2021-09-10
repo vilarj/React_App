@@ -1,59 +1,6 @@
 * {
   list-style: none;
   font-family: 'Crimson Text', serif;
+  text-decoration: none;
 }
 
-.social-media {
-  font-style: oblique;
-  color: white,
-}
-
-.HEADER {
-  background-color: #4b597e;
-  padding: 1%;
-  color: white;
-  width: 100%;
-  top: 100%;
-}
-
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.B1 h1 {
-  color: #3a445f;
-  text-align: center;
-}
-
-.B2 h1 {
-  color: #3a445f;
-  text-align: center;
-}
-
-.B3 h1 {
-  color: #3a445f;
-  text-align: center;
-}
-
-.body-headers {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 1em;
-  padding: 10px;
-  background-color: lavender;
-}
-
-.FOOTER {
-  background-color: #3a445f;
-  padding: 1%;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-a {
-  padding: 0.2%;
-}

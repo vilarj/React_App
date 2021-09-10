@@ -18,6 +18,12 @@ class Header extends React.Component {
   render() {
       return (
         <div className="HEADER"> 
+          <ul className="three-headers">
+            <li><a href="">About me</a></li>
+            <li><a href="">Contact Me</a></li>
+            <li><a href="">Current Project</a></li>
+            <li><a href="">Resume</a></li>
+          </ul>
         </div>
       )
   }
@@ -27,9 +33,7 @@ class Body extends React.Component {
   render () {
     return (
       <div className="BODY">
-
         <div className="body-headers">
-          
           <div className="B1">
             <h1>About Me</h1>
             <p>
@@ -53,8 +57,15 @@ class Body extends React.Component {
 
         </div>
 
-        <h3> Hello</h3>
-
+        <div className="message-form">
+          <form>
+            <label>
+              Send me a message
+              <input type="text" name="name" />
+            </label>
+              <input type="submit" value="Submit" />
+          </form>
+        </div>
       </div>
     )
   }
