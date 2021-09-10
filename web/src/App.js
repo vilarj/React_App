@@ -27,6 +27,7 @@ class Body extends React.Component {
   render () {
     return (
       <div className="BODY">
+
         <div className="body-headers">
           
           <div className="B1">
@@ -51,6 +52,9 @@ class Body extends React.Component {
           </div>
 
         </div>
+
+        <h3> Hello</h3>
+
       </div>
     )
   }
