@@ -7,6 +7,9 @@ import Body from './Components/Body'
 import Footer from './Components/Footer'
 
 import About from './Sites/About'
+import Contact from './Sites/Contact'
+import Current_Project from './Sites/Current_Project'
+import Resume from './Sites/Resume'
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/recent_project" component={Current_Project} />
+          <Route path="/resume" component={Resume} />
         </Switch>
 
       </div>
