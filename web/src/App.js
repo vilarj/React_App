@@ -17,8 +17,7 @@ function App() {
 
       <div className='App'> 
         <Header />
-        {/* <Body />
-        <Footer /> */}
+        {/* <Body />*/} 
         
         <Switch>
           <Route path="/" exact component={Home} />
@@ -27,7 +26,7 @@ function App() {
           <Route path="/current_project" component={Current_Project} />
           <Route path="/resume" component={Resume} />
         </Switch>
-
+        <Footer />
       </div>
     </Router>
   );

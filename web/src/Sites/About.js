@@ -2,7 +2,12 @@ import React from 'react'
 
 function About() {
     return (
-        <h1>About Page</h1>
+        <div className="about-site">
+            <h1>Vilarj</h1>
+            <div className="profile">
+                <img src="./profile.jpg" alt="" />
+            </div>
+        </div>
     )
 }
 
