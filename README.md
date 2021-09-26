@@ -7,7 +7,16 @@ You will find information about me, the current projects I'm currently working o
 
 # Frontend:
 Reactjs
+
 # Backend:
+Express js
+- Install express js -> node -i express
+
+## Dependencies
+- nodemon: It allows us to restart our server everytime we make changes.
+{- Installing nodemon: -} npm -i --save-dev nodemon
+{+ Using the interface: +} npm run devStart
+# Database:
 I'm going to use Easybase because their platform features a React-specific library that is built for serverless applications.
 
 * Serverless backed -> easybase-react
