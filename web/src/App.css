@@ -51,7 +51,7 @@ img:hover {
 	margin: 8px 0;
 }
 
-input {
+input[type=text] {
 	transition: width 0.4s ease-in-out;
 	color: white;
 	background-color: rgb(147, 152, 155);
@@ -60,7 +60,35 @@ input {
 	box-sizing: border-box;
 }
 
-input:focus {
+input[type=email] {
+	transition: width 0.4s ease-in-out;
+	color: white;
+	background-color: rgb(147, 152, 155);
+	padding: 6px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	transition: width 0.4s ease-in-out;
+	color: white;
+	background-color: rgb(147, 152, 155);
+	padding: 6px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+input[type=text]:focus {
 	width: 15%;
 	border: 3px solid lightblue;
+}
+
+input[type=email]:focus {
+	width: 15%;
+	border: 3px solid lightblue;
+}
+
+input[type=submit]:focus {
+	background-color: lightblue;
+	color: black;
 }
