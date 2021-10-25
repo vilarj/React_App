@@ -10,6 +10,8 @@ function Contact() {
 				<label>Email</label>
 				<input type="email" name="email" />
 				<br />
+				<textarea> </textarea>
+				<br />
 				<input type="submit" value="Submit" />
 			</form>
 		</div>
