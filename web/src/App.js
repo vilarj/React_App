@@ -1,38 +1,25 @@
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import logo from './logo.svg';
 import './App.css';
 
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-
-import About from './Sites/About';
-import Contact from './Sites/Contact';
-import Current_Project from './Sites/Current_Project';
-import Resume from './Sites/Resume';
-
-import { EasybaseProvider, useEasybase } from 'easybase-react';
-
 function App() {
-	return (
-		<Router>
-			<div className="App">
-				<Header />
-				<Switch>
-					<Route path="/" exact component={Home} />
-					<Route path="/about" component={About} />
-					<Route path="/contact" component={Contact} />
-					<Route path="/current_project" component={Current_Project} />
-					<Route path="/resume" component={Resume} />
-				</Switch>
-
-				<div className="easybase" />
-
-				<Footer />
-			</div>
-		</Router>
-	);
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
-
-const Home = () => <div />;
 
 export default App;
